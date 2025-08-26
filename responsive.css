@@ -1,3 +1,26 @@
+/* responsive mobile device minimum 400px  */
+
+@media screen and (max-width:424px) {
+
+   .heading-content-1 h1{
+      font-size: 26px;
+   }
+      .sub-banner-2{
+        border-radius: 30px;
+      }
+     
+   .banner-image2 img{
+      height: 290px;
+      margin-left: 200px;
+      padding: 20px;
+   }
+    .sub-banner-5{
+      margin-top: 100px;
+   }
+
+
+}
+
 /* responsive mobile device minimum 425  */
 
 @media screen and (max-width:640px) {
