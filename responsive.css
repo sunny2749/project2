@@ -1,0 +1,298 @@
+/* responsive mobile device minimum 425  */
+
+@media screen and (max-width:640px) {
+   
+   #site-header{
+      padding: 0px 0px;
+      height: 80px;
+   }
+   .logo{
+    font-size: 18px;
+   }
+   .logo span{
+    font-size: 18px;
+   }
+   .button-one{
+    width: 150px;
+    height:50px;
+    padding: 10px;
+    font-size: 14px;
+   }
+    .sub-banner{
+        width: 90%;
+        height: auto;
+        /* padding: 40px 20px; */
+    }
+    .banner-content-1 h1 {
+        font-size: 25px;
+    }
+    .button-two{
+        width: 150px;
+        font-size: 15px;
+        height: 50px;
+    }
+    .sub-banner-2{
+      flex-direction: column;
+      text-align: center;
+      margin: 24 auto;
+      width: 50%;
+      max-width: 100%;
+      padding: 0px;
+    }
+    .banner-content2{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .banner-content2 h1{
+      font-size: 25px;
+      margin-top: 20px;
+    }
+    .sub-banner-2 p {
+      width: 300px;
+      margin-bottom: 15px;
+    }
+
+         /* .banner-image2 img{
+      width: 70%;
+      margin-top: 30px;
+     } */
+      .sub-banner-2 img {
+         margin-left: 55PX;
+      }    
+     .button-three{
+      width: 150px;
+      height: 50px;
+      font-size: 15px;
+     }
+     #banner-3{
+        height: 350px;
+        margin-top: 20px;
+     }
+     .sub-banner-5{
+        width: 380px;
+        height: 300px;
+        width: 90%;
+        padding: 12px 12px;
+     }
+     .youtube-thumbnail img{
+        max-width: 100%;
+        /* width: 50%; */
+        height: 273px;
+     }    
+     .heading-content-3{
+        margin-top:80px;
+     }
+     #banner-5{
+        padding: 22px 30px;
+        height: 60px;
+     }
+     .banner-content-3 h3{
+        font-size: 15px;
+     }
+    .social-icon{
+        gap: 10px;
+        width: 130px;
+        height: 26px;
+    }
+     .sub-banner-7{
+        flex-direction: column;
+        /* width: 85%; */
+        justify-content: center;
+        /* justify-content: space-between; */
+        gap:30px;
+        text-align: center;
+        /* margin-left:32px; */
+     }
+     .service-card{
+        width: 264px;
+        height:200px;
+        width: 100%;
+     }
+    .card-container-1 h1,
+    .card-container-2 h1,
+    .card-container-3 h1 {
+        width: 185px;
+    }
+    .card-container-1 p,
+    .card-container-2 p,
+    .card-container-3 p{
+    width:185px;
+   }
+   .service-card img{
+      margin-right: 76px;
+   }
+   .card-container-1 h1 {
+     /* text-align: center; */
+     /* margin-right: 0px; */
+     /* margin-left: 20px; */
+     width: 100px;
+
+   }
+   .card-container-2 h1 {
+      /* margin-left: 7px; */
+      width: 77px;
+      
+   }
+   .card-container-3 h1{
+      /* margin-right: 70px; */
+      width: 100px;
+   }
+   .card-container-1 p{
+      width: 100px;
+      font-size: 14px;
+   }
+   .card-container-2 p{
+      width: 77px;
+      font-size: 14px;
+   }
+   .card-container-3 p {
+      width: 165px;
+   }
+}
+
+/* Responsive tablet device minimum 641 */
+@media screen and (max-width:1024px) {
+   #site-header{
+      height: 90px;  
+   }
+   .sub-banner {
+      width: 80%;
+      height: auto;
+   }
+   .sub-banner-2{
+      flex-direction: column;
+      text-align: center;
+      width: 70%;
+      max-width: 100%;
+   }
+   /* #banner-2{
+      width: 100%;
+      max-width: 100%;   } */
+   .button-three{
+      height: 50px;
+   }
+.sub-banner-2 img{
+   width: 350px;
+   margin-top: 52px;
+}
+.sub-banner-5{
+   width:80%;
+   height: auto;
+}
+.youtube-thumbnail img{
+   width: 99%;
+}
+.sub-banner-7{
+   flex-direction: column;
+   gap: 52px;
+}
+#banner-5{
+   padding: 32px 20px;
+   height: 80px;
+}
+.banner-content-1 P{
+      font-size: 20px;
+   }
+   .heading-content-1 p{
+      font-size: 20px;
+   }
+   .sub-banner-2{
+      /* flex-direction: column; */
+      text-align: center;
+      width: 79%;
+      /* max-width: 100%; */
+   }
+   .sub-banner-2 p{
+      font-size: 20px;
+   }
+   .sub-banner-2 img{
+   width: 350px;
+   margin-right:100px;
+}
+.heading-content-2 p{
+   font-size: 20px;
+}
+.heading-content-3 p{
+   font-size: 20px;
+}
+}
+/* \Responsive laptop device minimum 1025px */
+@media screen and (max-width:1200px) {
+   .sub-banner {
+      width: 90%;
+   }
+   .sub-banner-5{
+      width: 90%;
+      height: auto;
+   }
+   .youtube-thumbnail img{
+      width: 99%;
+   }
+   .banner-content-1 P{
+      font-size: 20px;
+   }
+   .heading-content-1 p{
+      font-size: 20px;
+   }
+   .sub-banner-2{
+      /* flex-direction: column; */
+      text-align: center;
+      width: 79%;
+      /* max-width: 100%; */
+   }
+   .sub-banner-2 p{
+      font-size: 20px;
+   }
+   .sub-banner-2 img{
+   width: 350px;
+   margin-right:100px;
+}
+.heading-content-2 p{
+   font-size: 20px;
+}
+.heading-content-3 p{
+   font-size: 20px;
+}
+.sub-banner-7{
+   gap: 52px;
+}
+.service-card{
+   width: 300px;
+   justify-content: center;
+}
+
+.service-card img{
+   margin-left: 80px;
+}
+.card-container-1{
+   margin-left:65px ;
+   /* text-align: center; */
+}
+.card-container-2{
+   margin-left: 77px;
+} 
+.card-container-3{
+   margin-left: 34px; 
+}
+}
+/* Responsive my device minimum 1201 px */
+@media screen and (max-width:1496px){
+   .service-card{
+      width: 300px;
+   }
+   /* .service-card img {
+      margin-left: 80px;
+   }
+   .card-container-1 h1{
+      margin-left: 65px;
+   }
+   .card-container-2 h1{
+      margin-left: 80px;
+   }
+   .card-container-3 h1{
+      margin-left: 35px;
+   }
+   .service-card p{
+      margin-left: 66px;
+   } */
+}
